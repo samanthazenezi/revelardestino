@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revelador de destinho</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="caixa" id="container">
+        <img class="img" src="./assets/boladecristal.png" alt="Bola de cristal.">
+        <div class="text">
+            <h1>Vou revelar seu destino!</h1>
+            <p>Clique em fazer pergunta para que seu destino seja revelado.</p>
+        </div>
+        <div class="pergunta">
+            <input id="inputPergunta" type="text" placeholder="Digite sua pergunta..">
+            <button id="buttonPerguntar" onclick="fazerPergunta()">Fazer pergunta</button>
+        </div>
+    </div>
+    <h3 id="resposta"></h3>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
